@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="/Webshop/img/logo.png" alt="Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/Webshop/index.html">Home</a></li>
+                <li><a href="/Webshop/products/products.html">Products</a></li>
+                <li><a href="/Webshop/aboutus/aboutus.html">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Your Cart</h1>
+    </header>
+
+    <main class="cart-main">
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td id="cart-total"></td>
+                </tr>
+            </tfoot>
+        </table>
+        <p id="cart-empty" style="color: white; display: none;">Your cart is empty.</p>
+        <button id="checkout-btn" onclick="completeOrder()">Complete order</button>
+        <img id="order-gif" src="https://media1.tenor.com/m/OmRH_WPMgE8AAAAd/laugh-dog.gif" alt="Order complete" style="display: none; margin-top: 20px;">
+    </main>
+
+
+
+    <script src="cart.js"></script>
+</body>
+</html>
