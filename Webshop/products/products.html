@@ -29,12 +29,20 @@
         <h1>Products</h1>
     </header>
 
+    <div class="filters">
+        <button onclick="filterProducten('All')">All</button>
+        <button onclick="filterProducten('Action')">Action</button>
+        <button onclick="filterProducten('Adventure')">Adventure</button>
+        <button onclick="filterProducten('Survival')">Survival</button>
+    </div>
+
     <main class="products-main">
         <ul class="products">
             <li class="product">
                 <img class="product-img" src="/Webshop/img/gta6.webp" alt="GTAVI">
                 <div class="product-title"><a href="#">GTA VI</a></div>
                 <h3 class="product-desc">Explore Vice City!</h3>
+                <h2 class="genre">Single player, action, adventure, open world, multiplayer</h2>
                 <p class="product-price">€119.99</p>
                 <button class="Addtocart">Add to cart</button>
             </li>
@@ -42,6 +50,7 @@
                 <img class="product-img" src="/Webshop/img/tf3.jpg" alt="tf3">
                 <div class="product-title"><a href="#">Titanfall 3</a></div>
                 <h3 class="product-desc">Explore the backstory of BT-7274</h3>
+                <h2 class="genre">Multiplayer shooter, first person shooter</h2>
                 <p class="product-price">€59.99</p>
                 <button class="Addtocart">Add to cart</button>
             </li>
@@ -49,6 +58,7 @@
                 <img class="product-img" src="/Webshop/img/sub2.jpg" alt="Subnautica 2">
                 <div class="product-title"><a href="#">Subnautica 2</a></div>
                 <h3 class="product-desc">Explore the depths of planet 4546B!</h3>
+                <h2 class="genre">Single player, survival, exploration</h2>
                 <p class="product-price">€39.99</p>
                 <button class="Addtocart">Add to cart</button>
             </li>
@@ -56,7 +66,40 @@
                 <img class="product-img" src="/Webshop/img/arkham.webp" alt="Arkham Asylum">
                 <div class="product-title"><a href="#">Arkham Asylum</a></div>
                 <h3 class="product-desc">Explore the world of Arkham Asylum!</h3>
+                <h2 class="genre">Action, adventure</h2>
                 <p class="product-price">€49.99</p>
+                <button class="Addtocart">Add to cart</button>
+            </li>
+            <li class="product">
+                <img class="product-img" src="/Webshop/img/tlou3.jpg" alt="The Last of Us 3">
+                <div class="product-title"><a href="#">The Last of Us 3</a></div>
+                <h3 class="product-desc">Explore the world of The Last of Us!</h3>
+                <h2 class="genre">Action-adventure, survival horror</h2>
+                <p class="product-price">€59.99</p>
+                <button class="Addtocart">Add to cart</button>
+            </li>
+            <li class="product">
+                <img class="product-img" src="/Webshop/img/legobatman.jpg" alt="Lego Batman">
+                <div class="product-title"><a href="#">Lego Batman</a></div>
+                <h3 class="product-desc">Explore the world of Lego Batman!</h3>
+                <h2 class="genre">action-adventure, platformer</h2>
+                <p class="product-price">€59.99</p>
+                <button class="Addtocart">Add to cart</button>
+            </li>
+            <li class="product">
+                <img class="product-img" src="/Webshop/img/metalgear.jpg" alt="Metal Gear Solid snake eater">
+                <div class="product-title"><a href="#">Metal Gear Solid: Snake Eater</a></div>
+                <h3 class="product-desc">Explore the world of Metal Gear Solid!</h3>
+                <h2 class="genre">stealth action-adventure</h2>
+                <p class="product-price">€49.99</p>
+                <button class="Addtocart">Add to cart</button>
+            </li>
+            <li class="product">
+                <img class="product-img" src="/Webshop/img/silenthills.png" alt="Silent hills">
+                <div class="product-title"><a href="#">Silent Hills</a></div>
+                <h3 class="product-desc">Explore the world of Silent Hills!</h3>
+                <h2 class="genre">survival horror</h2>
+                <p class="product-price">€59.99</p>
                 <button class="Addtocart">Add to cart</button>
             </li>
         </ul>

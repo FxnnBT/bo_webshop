@@ -127,3 +127,10 @@ button {
     font-size: 1.2rem;
     color: var(--primary-color);
 }
+.genre{
+    color: #aaa;
+    font-size: 0.85rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 6px 12px 0;
+}
